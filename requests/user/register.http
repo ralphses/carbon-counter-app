@@ -1,0 +1,35 @@
+POST https://1142-102-89-41-102.ngrok-free.app/api/register
+Content-Type: application/json
+
+{
+    "name" : "Raphael",
+    "email" : "eze.raspash@gmail.com",
+    "password" : "password",
+    "password_confirmation" : "password"
+}
+
+###
+
+POST https://ee1d-102-89-41-102.ngrok-free.app/api/login
+Content-Type: application/json
+
+{
+  "email" : "eze.raph@gmail.com",
+  "password" : "password"
+}
+
+###
+
+POST http://localhost:8000/api/profile
+Content-Type: application/json
+Authorization: Bearer 3|5VIM87iXZtS7Y1xLtCtr9TbAl3nUsEn7lfJuVea8e82fa474
+
+###
+
+GET https://newsapi.org/v2/everything?q=global_warming&apiKey=5de18280c6a74d2b8f7181ff53bfb130
+
+###
+GET https://newsapi.org/v2/everything?q=politics&domains=legit.ng&apiKey=5de18280c6a74d2b8f7181ff53bfb130
+
+###
+GET https://kottke.org/24/06/0044727-theres-now-a-bechdel-test
